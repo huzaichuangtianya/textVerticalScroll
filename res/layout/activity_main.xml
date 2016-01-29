@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ql1.MainActivity" >
+
+    <ScrollView
+        android:scrollbars="none"
+                  android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="120dp" >
+
+        <LinearLayout
+             android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="fsjkdljfkls1" />
+
+            <TextView
+                    android:gravity="center"
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="fsjkdljfkls2" />
+
+            <TextView
+                    android:gravity="center"
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="fsjkdljfkls3" />
+
+            <TextView
+                    android:gravity="center"
+                android:id="@+id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="fsjkdljfkls4" />
+
+            <TextView
+                    android:gravity="center"
+                android:id="@+id/text5"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="fsjkdljfkls5" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
